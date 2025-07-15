@@ -1,3 +1,42 @@
-body{
-    background-color: red;
+
+
+/* Nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+    gap:900
+}
+/* company name */
+.text-primary{
+    color:#4E47FF;
+}
+
+header div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.template{
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+}
+.btn-primary{
+    background-color: rgb(33, 9, 253);
+    font-weight: bold;
+    color:white;
+    paddig: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(78, 71, 255);
+
 }
